@@ -24,5 +24,5 @@ def weather_report(location: str) -> str:
 
 # Run the server
 if __name__== "main":
-    mcp.run()
+    mcp.run(transport="sse", port=3001)
 
